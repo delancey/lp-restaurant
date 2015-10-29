@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Visit one of our 3 Locations</h2>
+<br>
+
+
+ <div class = "caption">
+      <% @locations.each do |location| %>
+<h3><%= location.city %></h3>
+<h4><%= location.address %></h4>
+<h4><%= location.phone_number %></h4>
+<hr>
+<br>
+  <% end %>
+ 				<br>
+ 
+  
+			</div>
+		
+  
+   
